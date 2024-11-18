@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        const doctores = ['Dr. 1 ', 'Dr 2', 'Dr. 3']
+        window.onload = function () {
+            const listado = document.getElementById('listado');
+            // declaro la constante doc para guardar cada uno de los elementos del arreglo 
+            // itero por cada uno de los elementos del arreglo y almaceno en la constante doc ese valor
+            for (const doc of doctores) {
+                // imprimo el valor de la constante doc, que corresponde a cada uno de los elementos del arreglo
+                console.log(doc, '-----------')
+                const li = document.createElement('li')
+                li.textContent = doc
+                listado.appendChild(li)
+
+            }
+        }
+    </script>
+    <div>
+        <ul id="listado">
+        </ul>
+    </div>
+</body>
+
+</html>
