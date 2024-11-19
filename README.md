@@ -49,6 +49,15 @@ Se implementa el patrón 7-1 con la siguiente organización:
 - vendors
 
 
+## FUNCIONAMIENTO DE EVENTO LOOP (STACK, HEAP Y QUEUE)
+
+Permite a JavaScript gestionar tareas asincrónicas sin bloquear el hilo principal y se asegura de que la pila esté vacía antes de mover tareas desde las colas.
+
+- Stack: es la pila de ejecución. Ordena y ejecuta las funciones de manera síncrona. El Event Loop no puede procesar nuevas tareas hasta que el stack esté vacío. Mantiene el control de qué función debe continuar después de que una función termina.
+- Heap: no está directamente relacionado con el Event Loop, pero es fundamental para gestionar y almacenar datos que se utilizan dentro las funciones manejadas por el Stack y procesadas por el Event Loop. 
+- Queue: asegura que las operaciones asíncronas se gestionen correctamente sin bloquear la ejecución del código síncrono.
+
+
 ## CRÉDITOS:
 
 - Desarrollo Front-End: Carla García Becerra
