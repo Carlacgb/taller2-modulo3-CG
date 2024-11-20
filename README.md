@@ -48,6 +48,11 @@ Se implementa el patrón 7-1 con la siguiente organización:
 - themes
 - vendors
 
+## VARIABLES LET Y CONST
+
+- let: permite reasignar valores después de declararla.
+- const: es constante y no permite reasignar valores después de declararla. 
+
 
 ## FUNCIONAMIENTO DE EVENTO LOOP (STACK, HEAP Y QUEUE)
 

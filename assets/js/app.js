@@ -4,5 +4,10 @@ alert("Hola " + nombre)
 
 const email = prompt("¿Cuál es tu correo electrónico", "")
 console.log(email)
+
 //validación de correo electrónico que tenga una @ o si tipo es string
-alert("Tu correo ingresado es " + email)
+if (email.includes("@")) {
+    alert("Tu correo ingresado es " + email)
+} else {
+    alert ("Esta mal escrito el correo")
+}
