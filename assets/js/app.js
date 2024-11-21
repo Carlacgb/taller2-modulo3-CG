@@ -11,3 +11,23 @@ if (email.includes("@")) {
 } else {
     alert ("Esta mal escrito el correo")
 }
+
+const telefono = prompt("Teléfono", "")
+console.log(telefono)
+
+// si el parseo del numero es "Not a Number (NaN)" entonces no es un numero válido
+        
+console.log(parseInt(telefono))
+
+// parseInt(telefono) === NaN no sirve
+// parseInt(telefono) == NaN no sirve
+// se tiene que usar la funcion.. isNaN( string )
+
+if (isNaN(telefono)) {
+    alert("tu teléfono no es válido")
+} else {
+    alert("tu teléfono es " + telefono)
+}
+
+
+
