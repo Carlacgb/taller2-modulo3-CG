@@ -2,16 +2,22 @@
 Barrio Sano | Clínica Preventiva Comunitaria
 
 ## DESCRIPCIÓN GENERAL DEL PROYECTO
-El sitio web de la Clínica Preventiva Comunitaria Barrio Sano tiene como objetivo mejorar la presencia en línea de la clínica. Su diseño se caracteriza por una navegación sencilla e intuitiva, que refleja fielmente la identidad de la clínica. En el portal, los usuarios pueden acceder a información detallada sobre los servicios ofrecidos, el equipo médico y los datos de contacto. Además, se ha implementado un botón para el agendamiento de citas para los pacientes. En esta fase del proyecto, se implementa la modularización de estilos y se asegura que el sitio sea completamente responsivo. Para esto se implementa la metodología como BEM, el uso de SASS para estructurar el CSS de manera eficiente, y la aplicación de media queries para lograr una correcta adaptabilidad en dispositivos de diferentes tamaños.
+Para el taller 2 Módulo 3 se implementa en la página de la clínica nuevas funcionalidades como: manejo de entorno y ejecución de consola; manejo de varibles, operadores y prompts; uso de la interfaz con ciclos e iteraciones y manejo de errores con try/catch y debugging.
 
 ## INSTRUCCIONES PARA ABRIR EL PROYECTO
-Abrir el archivo index.html
+- Ejercicio 2 (Manejo de Variables, Operadores y Prompt): en página contacto.html
+
+- Ejercicio 3 (Ciclos e Iteraciones: Uso en la Interfaz): en la página ciclo-iteraciones.html
+
 
 ## ESTRUCTURA DE CARPETAS Y ARCHIVOS
 - assets
     - images
     - js
+        -app.js
+        -app2.js
     - styles
+- ciclos-iteraciones.html
 - index.html
 - equipo-medico.html
 - contacto.html
