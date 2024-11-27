@@ -1,3 +1,5 @@
+
+
 const nombre = prompt("¿Cuál es tu nombre?", "")
 console.log(nombre)
 alert("Hola " + nombre)
@@ -9,10 +11,11 @@ console.log(email)
 if (email.includes("@")) {
     alert("Tu correo ingresado es " + email)
 } else {
-    alert ("Esta mal escrito el correo")
+        alert ("Esta mal escrito el correo");
 }
 
 const telefono = prompt("Teléfono", "")
+
 console.log(telefono)
 
 // si el parseo del numero es "Not a Number (NaN)" entonces no es un numero válido
@@ -29,5 +32,11 @@ if (isNaN(telefono)) {
     alert("tu teléfono es " + telefono)
 }
 
+try {
+    alert ("Bienvenido/as");
+  }
+  catch(err) {
+    document.getElementById("mensaje-error").innerHTML = err.message;
+  }
 
 
