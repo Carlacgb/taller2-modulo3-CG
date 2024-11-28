@@ -68,6 +68,9 @@ Permite a JavaScript gestionar tareas asincrónicas sin bloquear el hilo princip
 - Heap: no está directamente relacionado con el Event Loop, pero es fundamental para gestionar y almacenar datos que se utilizan dentro las funciones manejadas por el Stack y procesadas por el Event Loop. 
 - Queue: asegura que las operaciones asíncronas se gestionen correctamente sin bloquear la ejecución del código síncrono.
 
+## DEBUGGER
+La búsqueda (y corrección) de errores en el código de programación se denomina debugging.
+Para activar el debugger hay que ingresar en el navegador, por ejemplo Chrome DevTools permite detener la ejecución del código JavaScript en una línea específica para inspeccionar variables, evaluar expresiones y entender el flujo de tu programa. 
 
 ## CRÉDITOS:
 
